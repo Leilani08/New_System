@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #471516;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the bottom */
+}
+
+img {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display:inline block;
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.textbox {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: none; /* Remove default border */
+  border: 0.1px solid black;
+}
+
+
+button {
+    background-color: #471516;
+    color: white;
+    width: 300px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow to the bottom */
+}
+
+#olvideContra {
+    text-align: right;
+    font-size: 15px;
+}
+
+.identificador {
+    display: flex;
+    justify-content: left;
+    align-items: center; /* Center vertically */
+    margin-left: 150px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+   
+}
+#checkB{
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 5px;
+}
+
