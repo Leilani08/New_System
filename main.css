@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Basic styles for the side nav */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.sidenav a:last-child {
+    margin-top: auto; /* Pushes the last item to the bottom */
+}
+
+.sidenav a:hover {
+    background-color: #ddd;
+}
+
+img{
+    width: 100%;
+}
+button{
+    background-color: #471516;
+    color:white;
+    border-radius: 3px;
+}
